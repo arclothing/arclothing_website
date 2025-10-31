@@ -112,9 +112,12 @@ const AdminDashboard = () => {
 
     try {
       if (editingProduct) {
+        // Ensure primary key 'id' is not included in update payload
+        const { brand, fabric, available_colors, sizes, moq, stock_status, image_url, category } = formData;
+        const updatePayload = { brand, fabric, available_colors, sizes, moq, stock_status, image_url, category };
         const { error } = await supabase
           .from("products")
-          .update(formData)
+          .update(updatePayload)
           .eq("id", editingProduct.id);
 
         if (error) throw error;
@@ -155,7 +158,17 @@ const AdminDashboard = () => {
 
   const openEditDialog = (product: Product) => {
     setEditingProduct(product);
-    setFormData(product);
+    // Exclude 'id' from form state to avoid attempting to update primary key
+    setFormData({
+      brand: product.brand,
+      fabric: product.fabric,
+      available_colors: product.available_colors,
+      sizes: product.sizes,
+      moq: product.moq,
+      stock_status: product.stock_status,
+      image_url: product.image_url || "",
+      category: product.category,
+    });
     setDialogOpen(true);
   };
 
