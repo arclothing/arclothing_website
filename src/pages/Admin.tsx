@@ -18,8 +18,8 @@ const Admin = () => {
     setLoading(true);
 
     // Simple hardcoded admin credentials
-    const ADMIN_EMAIL = "admin@gmail.com";
-    const ADMIN_PASSWORD = "123456";
+    const ADMIN_EMAIL = "arclothingsnew@gmail.com";
+    const ADMIN_PASSWORD = "tabrez@1234";
 
     try {
       // Simulate API call delay
