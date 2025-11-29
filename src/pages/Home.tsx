@@ -62,7 +62,7 @@ const Home = () => {
       <section className="bg-gradient-to-r from-[#1a1a1a] to-black py-20 text-[#D4AF37]">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h1 className="text-5xl font-bold mb-4">Premium B2B Fashion Supplier</h1>
+            <h1 className="text-5xl font-bold mb-4">AR FASHIONS</h1>
             <p className="text-xl mb-8 opacity-90">Bulk clothing orders for retailers, wholesalers, and businesses</p>
             <div className="flex gap-4 justify-center flex-wrap">
               <a href="/catalog">
@@ -117,7 +117,7 @@ const Home = () => {
 
       {/* WhatsApp Floating Icon */}
       <a 
-        href="https://wa.me/1234567890" 
+        href="https://wa.me/+919900724060" 
         target="_blank" 
         rel="noopener noreferrer"
         className="fixed bottom-6 right-6 w-14 h-14 rounded-full shadow-lg hover:scale-110 transition-all duration-300 z-50 flex items-center justify-center bg-white"

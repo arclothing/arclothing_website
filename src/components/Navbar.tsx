@@ -28,8 +28,8 @@ const Navbar = () => {
     <header className="sticky top-0 z-50 border-b border-[#D4AF37]/40 bg-black/90 backdrop-blur supports-[backdrop-filter]:bg-black/75">
       <div className="container mx-auto px-4 py-3 flex items-center justify-between">
         <Link to="/" className="flex items-center gap-2">
-          <img src="/FINAL_LOGO.jpg" alt="AR FASHION logo" className="h-9 w-9 rounded-lg object-contain border border-[#D4AF37]/50 bg-black" />
-          <span className="text-lg font-bold tracking-wide text-[#D4AF37]">AR FASHION</span>
+          <img src="/FINAL_LOGO.jpg" alt="AR FASHIONS logo" className="h-9 w-9 rounded-lg object-contain border border-[#D4AF37]/50 bg-black" />
+          <span className="text-lg font-bold tracking-wide text-[#D4AF37]">AR FASHIONS</span>
         </Link>
         {/* Desktop nav */}
         <nav className="hidden md:flex items-center gap-2 flex-wrap justify-end">

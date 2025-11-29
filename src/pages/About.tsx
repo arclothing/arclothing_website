@@ -11,7 +11,7 @@ const About = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 flex-1">
         {/* Hero Section */}
         <div className="mb-16">
-          <h1 className="text-5xl font-bold mb-4">About AR Fashion</h1>
+          <h1 className="text-5xl font-bold mb-4">About AR Fashions</h1>
           <p className="text-xl text-muted-foreground max-w-2xl">
             Leading B2B fashion supplier providing premium bulk clothing to retailers, wholesalers, and businesses worldwide.
           </p>
@@ -22,7 +22,7 @@ const About = () => {
           <div>
             <h2 className="text-3xl font-bold mb-4">Our Story</h2>
             <p className="text-muted-foreground mb-4">
-              Founded in 2015, AR Fashion has been a trusted partner for businesses looking for high-quality bulk clothing. We started with a simple mission: to provide premium fashion products at competitive wholesale prices.
+              Founded in 2015, AR Fashions has been a trusted partner for businesses looking for high-quality bulk clothing. We started with a simple mission: to provide premium fashion products at competitive wholesale prices.
             </p>
             <p className="text-muted-foreground mb-4">
               Over the years, we've grown to serve thousands of retailers and wholesalers across the globe. Our commitment to quality, reliability, and customer service has made us a leader in the B2B fashion industry.

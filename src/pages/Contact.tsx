@@ -12,7 +12,7 @@ const Contact = () => {
 
         <div className="grid gap-4">
           <a
-            href="https://wa.link/q82lwx"
+            href="https://wa.me/+919900724060"
             target="_blank"
             rel="noreferrer"
             className="block"
@@ -26,7 +26,7 @@ const Contact = () => {
 
           <div className="text-sm text-[#9a9a9a] mt-6">
             <p>Official email: arclothingsnew@gmail.com</p>
-            <p>Brand: AR FASHION</p>
+            <p>Brand: AR FASHIONS</p>
           </div>
         </div>
       </main>

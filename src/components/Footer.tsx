@@ -3,8 +3,8 @@ const Footer = () => {
     <footer className="border-t border-[#D4AF37]/30 bg-black text-[#dcdcdc]">
       <div className="container mx-auto px-4 py-8 grid grid-cols-1 md:grid-cols-3 gap-8 text-sm text-center md:text-left">
         <div>
-          <h3 className="font-semibold text-[#D4AF37]">AR FASHION</h3>
-          <p className="mt-2 text-[#bfbfbf]">B2B apparel supplier for trending pants and shirts.</p>
+          <h3 className="font-semibold text-[#D4AF37]">AR FASHIONS</h3>
+          <p className="mt-2 text-[#bfbfbf]">AR FASHIONS - Premium B2B Fashion Supplier</p>
         </div>
         <div>
           <h4 className="font-medium text-[#D4AF37]">Contact</h4>
@@ -20,7 +20,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="text-xs text-center text-[#9a9a9a] py-4">© {new Date().getFullYear()} AR FASHION. All rights reserved.</div>
+      <div className="text-xs text-center text-[#9a9a9a] py-4">© {new Date().getFullYear()} AR FASHIONS. All rights reserved.</div>
     </footer>
   );
 };

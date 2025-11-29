@@ -394,11 +394,11 @@ const AdminDashboard = () => {
                       <Input
                         id="colors"
                         type="number"
-                        min="0"
-                        value={formData.available_colors}
+                        value={formData.available_colors || ''}
                         onChange={(e) => setFormData({ ...formData, available_colors: Number(e.target.value) || 0 })}
                         placeholder="Number of available colors"
                         required
+                        className="[appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none"
                       />
                     </div>
                     <div className="space-y-2">
@@ -416,11 +416,11 @@ const AdminDashboard = () => {
                       <Input
                         id="moq"
                         type="number"
-                        min="1"
-                        value={formData.moq}
+                        value={formData.moq || ''}
                         onChange={(e) => setFormData({ ...formData, moq: Number(e.target.value) || 0 })}
                         placeholder="Enter minimum order quantity"
                         required
+                        className="[appearance:textfield] [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:appearance-none"
                       />
                     </div>
                     <div className="space-y-2">

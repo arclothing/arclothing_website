@@ -93,7 +93,7 @@ export const ProductModal = ({ product, onClose, isOpen }: ProductModalProps) =>
 
   const handleWhatsApp = () => {
     const message = `Hi, I'm interested in the ${product.brand} product. Could you please provide more details?`;
-    const whatsappUrl = `https://wa.me/1234567890?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/+919900724060?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, "_blank");
   };
 
